@@ -3,6 +3,7 @@ dependencies:
     - sudo apt-get install python2.7-dev python3.4-dev
   override:
     - pip install -r requirements-dev.txt
+    - pip install codecov
 
 test:
   override:
