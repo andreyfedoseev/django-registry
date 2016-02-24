@@ -1,0 +1,8 @@
+-r requirements.txt
+flake8
+pytest
+pretend
+coverage==3.7.1
+pytest-cov==2.2.1
+pytest-django
+Sphinx

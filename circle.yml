@@ -1,0 +1,13 @@
+dependencies:
+  pre:
+    - sudo apt-get install python2.7-dev python3.4-dev
+  override:
+    - pip install requirements-dev.txt
+
+test:
+  override:
+    - flake8
+    - rm -f coverage.xml
+    - tox
+  post:
+    - codecov
