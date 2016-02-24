@@ -30,7 +30,7 @@ The code for this app would look something like::
     </ul>
 
 Let's say you want to use this app in your project, but you'd like to change "Archive" title to something
-like "All Post by Date". And you want to make use your custom view to display the archive.
+like "All Posts by Date". And you want to make your custom view to display the archive.
 Now you can totally do that! Just add ``REGISTRY`` to your ``settings.py`` and fill it with some values::
 
     # settings.py
